@@ -1,0 +1,17 @@
+.sign {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.sign a {
+    font-size: 10px;
+    color: #eb0c17;
+    text-decoration: none;
+    background-color: white;
+    font-weight: bolder;
+}
