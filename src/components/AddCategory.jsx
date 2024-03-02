@@ -20,7 +20,7 @@ export const AddCategory = ({onNewCategory}) => {
     }
 
     return (
-        <form onSubmit={ (event) => onSubmit(event) }  >
+        <form onSubmit={ (event) => onSubmit(event) } aria-label="form" >
             <input 
                 id="inputValue"
                 type="text"
@@ -33,5 +33,5 @@ export const AddCategory = ({onNewCategory}) => {
 }
 
 AddCategory.propTypes = {
-    onNewCategory: PropTypes.func,
+    onNewCategory: PropTypes.func.isRequired,
 }
